@@ -1,5 +1,7 @@
 # Ubuntu Trusty Supervisord
 
+Ubuntu Trusty image with supervisord
+
 ## Overview
 
 Ubuntu Trusty simple image with :  
