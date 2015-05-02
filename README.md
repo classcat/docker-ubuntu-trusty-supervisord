@@ -13,5 +13,5 @@ Ubuntu Trusty simple image with :
 ## Usage
 
 ```
-$ sudo docker run -d --name (container name) classcast/ubuntu:trusty /usr/bin/supervisord
+$ sudo docker run -d --name (container name) classcast/ubuntu-supervisord:trusty /usr/bin/supervisord
 ```
