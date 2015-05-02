@@ -6,12 +6,12 @@ Ubuntu Trusty image with supervisord
 
 Ubuntu Trusty simple image with :  
 
++ supervisord
 + locale en_US.UTF-8
 + language-pack-en language-pack-en-base
-+ supervisord
 
 ## Usage
 
 ```
-$ sudo docker run -d --name (container name) classcast/ubuntu-supervisord:trusty /usr/bin/supervisord
+$ sudo docker run -d --name (container name) classcast/ubuntu-supervisord:trusty supervisord
 ```
