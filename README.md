@@ -1,4 +1,4 @@
-# Ubuntu Trusty Supervisord
+# Ubuntu Vivid/Trusty Supervisord
 
 Ubuntu Vivid/Trusty images with sshd, supervisord and locale en_US.UTF-8.
 
