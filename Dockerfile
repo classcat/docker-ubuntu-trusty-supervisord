@@ -10,7 +10,7 @@ RUN apt-get update && apt-get -y upgrade \
 #RUN dpkg-reconfigure locales
 RUN update-locale LANG="en_US.UTF-8"
 
-RUN apt-get install -y openssh-server supervisor 
+RUN apt-get install -y openssh-server supervisor rsyslog
 
 # sshd
 RUN mkdir -p /var/run/sshd
